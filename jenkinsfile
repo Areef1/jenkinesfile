@@ -27,5 +27,10 @@ pipeline{
             echo "this is step c"
         }
     }
+ stage("Complated"){
+        steps{
+            echo "this is step complated"
+        }
+    }
     }
 }
